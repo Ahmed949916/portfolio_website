@@ -1,111 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Ahmad Abdullah</title>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <nav class="nav-bar">
-            <ul class="main-nav-list">
-                <li><a href="#intro">Introduction</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certificates">Certificates</a></li>
-                <li><a href="#bootcamps">Bootcamps</a></li>
-                <li><a href="#Internship">Internships</a></li>
-            </ul>
-
-        </nav>
-        
+      <nav class="nav-bar">
+        <ul class="main-nav-list">
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#bootcamps">Bootcamps</a></li>
+          <li><a href="#Internship">Internships</a></li>
+        </ul>
+      </nav>
     </header>
-    
-    <section id="intro"class="main-header">
-        <div class="container-centered grid grid-2-col intro-grid">
-            <div class="introduction">
-                <ul class="main-intro">
-                    <li class="name">Ahmad Abdullah</li>
-                    <div class="pointer">
-                        <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
-                        <li class="main-intro-li">Developer</li>
+    <section class="portfolio">
+      <h1 class="head-portfolio">portfolio</h1>
+      <div class="intro-svg-div">
+        <img class="arrow-svg" src="arrow.svg" alt="arrow svg" />
+        <p class="name">AHMAD ABDULLAH</p>
+      </div>
+    </section>
 
-                    </div>
-                   <div class="pointer">
-                    <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
-                    <li class="main-intro-li">ML enthusiast</li>
-
-                   </div>
-                    <div class="pointer">
-                        <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
-                        <li class="main-intro-li">Not afraid to take risks<li>
-
-                    </div>
-                   
-                </ul>
-               
-               
-                
-
+    <section id="intro" class="main-header">
+      <div class="container-centered grid grid-2-col intro-grid">
+        <div class="introduction">
+          <ul class="main-intro">
+            <li class="name">HI,</li>
+            <div class="pointer">
+              <li class="main-intro-li">
+                I am a CS student from Fast, Lahore currently in 7th semester.
+                <br />
+                I'm a developer with a strong passion for machine learning and a
+                knack for taking risks to drive innovation.
+                <span class="span-green">Check out my portfolio. </span>
+              </li>
             </div>
-            <div class="profile-pic">
-                
-                <img class="dp"src="dp.jpg" alt="Picture of Ahmad Abdullah">
+            <!-- <div class="pointer">
+              <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+              <li class="main-intro-li">Developer</li>
             </div>
-
-
+            <div class="pointer">
+              <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+              <li class="main-intro-li">ML enthusiast</li>
+            </div>
+            <div class="pointer">
+              <ion-icon class="arrow" name="arrow-forward-outline"></ion-icon>
+              <li class="main-intro-li">Not afraid to take risks</li>
+              <li></li>
+            </div> -->
+          </ul>
         </div>
-
+        <div class="profile-pic">
+          <img class="dp" src="dp.jpg" alt="Picture of Ahmad Abdullah" />
+        </div>
+      </div>
     </section>
     <section id="projects" class="sec-projects">
-        <div class="heading-projects">
-            <h2 class="heading-secondary">Projects</h2>
+      <div class="heading-projects">
+        <h2 class="heading-secondary">Projects</h2>
+      </div>
+      <div class="projects-div">
+        <!-- <img src="" alt="" /> -->
 
+        <div class="project project-3">
+          <div class="img-div height">
+            <img class="img-spam" src="/pdf2.png" alt="" />
+          </div>
+          <div class="project-text pdf-flex-text">
+            <p class="project-heading">PDF_Chatbot</p>
+            <p class="project-description">
+              Chat with your PDFs, offline and privately. Unlock the knowledge
+              hidden within your documents through a simple conversational
+              interface. Front-end made in 3 different technologies.
+            </p>
+            <div class="img-div">
+              <div class="github">
+                <p>GITHUB</p>
+
+                <a href="https://github.com/Ahmed949916/PDF_Chatbot"
+                  ><ion-icon name="logo-github" class="svg"></ion-icon
+                ></a>
+              </div>
+              <div class="tags">
+                <div>Flask</div>
+                <div>React</div>
+                <div>Random-Forest</div>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        
 
+        <div class="project">
+          <div class="project-text">
+            <p class="project-heading">Human Pose Detection</p>
+            <p class="project-description">
+              Used lsp extended to fine tuned existing model to be able to
+              predict postion of human joints using videos
+            </p>
+
+            <div class="img-div">
+              <div class="github">
+                <p>GITHUB</p>
+
+                <a href="https://github.com/Ahmed949916/Stock-Predictor"
+                  ><ion-icon name="logo-github" class="svg"></ion-icon
+                ></a>
+              </div>
+              <div class="tags">
+                <div>FB Prophet</div>
+                <div>Neural Networks</div>
+                <div>LSTM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project project-2">
+          <div class="project-text">
+            <p class="project-heading">Email Spam Detector</p>
+            <p class="project-description">
+              A web application that allows users to upload the content of an
+              email. The application processes the email content, extracts
+              features such as word frequency, and sends these features to
+              trained models at the backend. The models then predict whether the
+              email is spam or not and return the prediction along with the
+              probability to the frontend.
+            </p>
+            <div class="img-div">
+              <div class="github">
+                <p>GITHUB</p>
+
+                <a href="https://github.com/Ahmed949916/SpamDetector"
+                  ><ion-icon name="logo-github" class="svg"></ion-icon
+                ></a>
+              </div>
+
+              <div class="tags">
+                <div>Flask</div>
+                <div>React</div>
+                <div>Random-Forest</div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="img-div height-img">
+            <img class="img-spam" src="/spam3.png" alt="" />
+          </div>-->
+        </div>
+
+        <div class="project project-2">
+          <div class="project-text">
+            <p class="project-heading">CookCraft</p>
+            <p class="project-description">
+              The mobile app provides users with a convenient platform to access
+              a vast database of recipes, create customizable meal plans,
+              generate grocery lists based on selected recipes, obtain
+              nutritional information, and engage with a community for sharing
+              ideas and inspiration. By offering personalized recommendations
+              based on dietary preferences, nutritional requirements, and
+              available ingredients.
+            </p>
+
+            <div class="img-div">
+              <div class="github">
+                <p>GITHUB</p>
+
+                <a href="https://github.com/Ahmed949916/CookCraft"
+                  ><ion-icon name="logo-github" class="svg"></ion-icon
+                ></a>
+              </div>
+              <div class="tags">
+                <div>Flask</div>
+                <div>React Native</div>
+                <div>Cosine Similarity</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-text">
+            <p class="project-heading">S&P 500 Stock Predictor</p>
+            <p class="project-description">
+              This project is the first machine learning program I created using
+              neural networks and Facebook Prophet to predict the prices of
+              stocks in the S&P 500 index.
+            </p>
+            <div class="img-div">
+              <div class="github">
+                <p>GITHUB</p>
+
+                <a href="https://github.com/Ahmed949916/Stock-Predictor"
+                  ><ion-icon name="logo-github" class="svg"></ion-icon
+                ></a>
+              </div>
+              <div class="tags">
+                <div>FB Prophet</div>
+                <div>Neural Networks</div>
+                <div>LSTM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project project-3">
+          <div class="project-text">
+            <p class="project-heading">Rocket Lander</p>
+            <p class="project-description">
+              A 2D game built with Unity for learning purposes. The objective of
+              the game is to control a rocket and land it in a specific area to
+              win. The game consists of three levels, each with increasing
+              difficulty.
+            </p>
+            <div class="img-div">
+              <div class="github">
+                <p>GITHUB</p>
+
+                <a
+                  href="https://github.com/Ahmed949916/Rocket-Landing-Game?tab=readme-ov-file"
+                  ><ion-icon name="logo-github" class="svg"></ion-icon
+                ></a>
+              </div>
+
+              <div class="tags">
+                <div>Unity</div>
+                <div>C#</div>
+                <div>Blender</div>
+              </div>
+            </div>
+          </div>
+          <div class="img-div">
+            <img class="img-spam" src="/unity.png" alt="" />
+          </div>
+        </div>
+
+        <!-- <img src="" alt="" /> -->
+      </div>
     </section>
-
 
     <section id="certificates" class="sec-certificates">
-        <div class="heading-projects">
-            <h2 class="heading-secondary">Certificates</h2>
-
-        </div>
-        
-        
-
+      <div class="heading-projects">
+        <h2 class="heading-secondary">Certificates</h2>
+      </div>
+      <div class="ul-common">
+        <li>Supervised Machine Learning by DeepLearning AI and stanford</li>
+        <li>Advanced Algorithms by DeepLearning AI and stanford</li>
+        <li>Unsupervised Learning by DeepLearning AI and stanford</li>
+        <li>HTML and CSS by Jonas</li>
+        <li>CHATGPT Advanced Data anlysis</li>
+      </div>
     </section>
     <section id="bootcamp" class="sec-bootcamps">
-        <div class="heading-projects">
-            <h2 class="heading-secondary">Bootcamps</h2>
-
-        </div>
-        
-        
-
+      <div class="heading-projects">
+        <h2 class="heading-secondary">Bootcamps</h2>
+      </div>
+      <div class="ul-common">
+        <li>AI in health science by Soliton</li>
+        <li>IOT by Grandeur</li>
+      </div>
     </section>
 
     <section id="Internship" class="sec-internship">
-        <div class="heading-projects">
-            <h2 class="heading-secondary">Internship</h2>
+      <div class="heading-projects">
+        <h2 class="heading-secondary">Internship</h2>
+      </div>
+      <div class="ul-common">
+        <li>
+          Software Engineering intern at
+          <span class="span-green">Folium AI</span>
+        </li>
+        <li>
+          Machine Learning intern at
+          <span class="span-green">Rapide Technologies</span>
+        </li>
+      </div>
+    </section>
+    <section class="contact">
+      <ul class="contact-ul">
+        <li>
+          <a href="https://github.com/Ahmed949916">
+            <div class="github">
+              <p>GITHUB</p>
+              <ion-icon name="logo-github" class="svg"></ion-icon></div
+          ></a>
+        </li>
 
-        </div>
-        
-        
+        <li>
+          <a
+            href="https://www.linkedin.com/in/ahmad-abdullah-240920179?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          >
+            <div class="github">
+              <p>LinkedIn</p>
 
+              <ion-icon
+                name="logo-linkedin"
+                class="svg blue-svg"
+              ></ion-icon></div
+          ></a>
+        </li>
+
+        <li>
+          <a href="/cv.pdf">
+            <div class="github">
+              <p>Resume</p>
+              <ion-icon name="book-outline" class="svg"></ion-icon>
+            </div>
+          </a>
+        </li>
+      </ul>
     </section>
 
-
-    
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
