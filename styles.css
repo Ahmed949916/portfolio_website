@@ -32,7 +32,7 @@ header {
   box-shadow: 1px 1px 6px #4e4e4e;
 }
 .heading-secondary {
-  padding: 9.6rem;
+  padding: 9.6rem 9.6rem 4.55rem 9.6rem;
 
   font-family: "Playwrite AT", sans-serif;
   font-size: 4rem;
